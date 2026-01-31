@@ -9,7 +9,7 @@ const dadosPsicologo = {
   modalidade: "Online",
   horarios: "Segunda e Sexta, das 08h às 18h; Terça, Quarta e Quinta, das 19h às 22h",
   descricao: "Atendimento psicológico voltado para o cuidado da saúde mental, promovendo autoconhecimento e qualidade de vida.",
-  whatsapp: "(11)930821455",
+  whatsapp: "5511930821455",
 };
 
 // ===============================
