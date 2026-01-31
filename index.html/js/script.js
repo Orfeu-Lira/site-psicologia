@@ -21,7 +21,6 @@ document.getElementById("abordagem").textContent = dadosPsicologo.abordagem;
 document.getElementById("crp").textContent = dadosPsicologo.crp;
 document.getElementById("modalidade").textContent = dadosPsicologo.modalidade;
 document.getElementById("horarios").textContent = dadosPsicologo.horarios;
-document.getElementById("local").textContent = dadosPsicologo.local;
 document.getElementById("descricao").textContent = dadosPsicologo.descricao;
 document.getElementById("whatsapp").textContent = "+" + dadosPsicologo.whatsapp;
 document.getElementById("email").textContent = dadosPsicologo.email;
