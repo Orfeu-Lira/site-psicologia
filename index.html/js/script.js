@@ -5,7 +5,7 @@
 const dadosPsicologo = {
   nome: "Dr(a). Augusto Araujo Renenr",
   abordagem: "Psicologia Clínica • Terapia por Contingências de Reforçamento (TCR)",
-  crp: "00/00000",
+  crp: "06/186067",
   modalidade: "Online",
   horarios: "Segunda e Sexta, das 08h às 18h; Terça, Quarta e Quinta, das 19h às 22h",
   local: "Cotia - São Paulo",
