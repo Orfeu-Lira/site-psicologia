@@ -3,7 +3,7 @@
 // ===============================
 
 const dadosPsicologo = {
-  nome: "Dr(a). Augusto Araujo Renenr",
+  nome: "Dr(a). Augusto Araujo Renner",
   abordagem: "Psicologia Clínica • Terapia por Contingências de Reforçamento (TCR)",
   crp: "06/186067",
   modalidade: "Online",
