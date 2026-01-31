@@ -9,7 +9,7 @@ const dadosPsicologo = {
   modalidade: "Online",
   horarios: "Segunda e Sexta, das 08h às 18h; Terça, Quarta e Quinta, das 19h às 22h",
   descricao: "Atendimento psicológico voltado para o cuidado da saúde mental, promovendo autoconhecimento e qualidade de vida.",
-  whatsapp: "11930821455",
+  whatsapp: "(11)930821455",
 };
 
 // ===============================
@@ -23,7 +23,6 @@ document.getElementById("modalidade").textContent = dadosPsicologo.modalidade;
 document.getElementById("horarios").textContent = dadosPsicologo.horarios;
 document.getElementById("descricao").textContent = dadosPsicologo.descricao;
 document.getElementById("whatsapp").textContent = "+" + dadosPsicologo.whatsapp;
-document.getElementById("email").textContent = dadosPsicologo.email;
 
 document.getElementById("linkWhatsapp").href =
   `https://wa.me/${dadosPsicologo.whatsapp}`;
