@@ -8,7 +8,6 @@ const dadosPsicologo = {
   crp: "06/186067",
   modalidade: "Online",
   horarios: "Segunda e Sexta, das 08h às 18h; Terça, Quarta e Quinta, das 19h às 22h",
-  local: "Cotia - São Paulo",
   descricao: "Atendimento psicológico voltado para o cuidado da saúde mental, promovendo autoconhecimento e qualidade de vida.",
   whatsapp: "11930821455",
 };
