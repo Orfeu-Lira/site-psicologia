@@ -1,83 +1,90 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Atendimento Psicológico</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atendimento Psicológico</title>
 
-  <link rel="stylesheet" href="css/style.css">
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
 
-  <header>
-    <h1 id="nomePsicologo"></h1>
-    <p id="abordagem"></p>
-  </header>
+    <!-- HERO -->
+    <header class="hero">
+        <div class="container">
+            <h1 id="nomePsicologo">Atendimento Psicológico</h1>
+            <p id="abordagem">Acolhimento, escuta e desenvolvimento emocional.</p>
 
-  <section class="info">
-    <h2>Informações Profissionais</h2>
-    <p><strong>CRP:</strong> <span id="crp"></span></p>
-    <p><strong>Atendimento:</strong> <span id="modalidade"></span></p>
-    <p><strong>Horários:</strong> <span id="horarios"></span></p>
-  </section>
+            <a href="https://wa.me/5599999999999"
+               target="_blank"
+               class="btn"
+               id="linkWhatsapp">
+               Agendar Atendimento
+            </a>
+        </div>
+    </header>
 
-  <section>
-    <h2>Sobre o Atendimento</h2>
-    <p id="descricao"></p>
-  </section>
+    <main>
 
-  <section>
-    <h2>Contato</h2>
-    <p><strong>WhatsApp:</strong> <span id="whatsapp"></span></p>
-    <p><strong>Email:</strong> <span id="email"></span></p>
+        <!-- INFORMAÇÕES PROFISSIONAIS -->
+        <section class="info">
+            <div class="container">
+                <h2>Informações Profissionais</h2>
 
-    <section>
-  <h2>Pré-agendamento psicológico</h2>
+                <p><strong>CRP:</strong> <span id="crp">00/00000</span></p>
+                <p><strong>Atendimento:</strong> <span id="modalidade">Online e Presencial</span></p>
+                <p><strong>Horários:</strong> <span id="horarios">Segunda a Sexta</span></p>
+            </div>
+        </section>
 
-  <form id="formAgendamento">
-    
-    <label>
-      Nome completo:
-      <input type="text" name="nome" required>
-    </label>
+        <!-- SOBRE O ATENDIMENTO -->
+        <section>
+            <div class="container">
+                <h2>Sobre o Atendimento</h2>
+                <p id="descricao">
+                    Atendimento psicológico voltado ao acolhimento emocional,
+                    escuta ativa e desenvolvimento pessoal.
+                </p>
+            </div>
+        </section>
 
-    <label>
-      Idade:
-      <input type="number" name="idade" min="12" required>
-    </label>
+        <!-- CONTATO -->
+        <section>
+            <div class="container">
+                <h2>Contato</h2>
 
-    <label>
-      É sua primeira vez em terapia?
-      <select name="primeiraVez" required>
-        <option value="">Selecione</option>
-        <option value="Sim">Sim</option>
-        <option value="Não">Não</option>
-      </select>
-    </label>
+                <p><strong>WhatsApp:</strong> <span id="whatsapp"></span></p>
+                <p><strong>Email:</strong> <span id="email"></span></p>
 
-    <label>
-      Descreva brevemente o motivo da busca por terapia:
-      <textarea name="queixa" rows="5" required></textarea>
-    </label>
+            </div>
+        </section>
 
-    <label>
-      <input type="checkbox" name="consentimento" required>
-      Declaro que li e concordo com o uso das informações conforme a LGPD.
-    </label>
+        <!-- AGENDAMENTO -->
+        <section>
+            <section class="cta-section">
+              <div class="container">
 
-    <button type="submit">Enviar informações</button>
-  </form>
-</section>
+                <h2>Agendamento</h2>
 
-    <a id="linkWhatsapp" class="btn" target="_blank">
-      Agendar Atendimento
-    </a>
-  </section>
+                <p>
+                    Para agendar uma consulta ou tirar dúvidas,
+                    entre em contato diretamente pelo WhatsApp.
+                </p>
 
-  <footer>
-    <p>Este site segue as normas éticas do Conselho Federal de Psicologia.</p>
-  </footer>
+                <a href="https://wa.me/5511930821455"
+                   target="_blank"
+                   class="btn">
+                   Falar no WhatsApp
+                </a>
+            </div>
+        </section>
 
-  <script src="js/script.js"></script>
+    </main>
+
+    <!-- JS -->
+    <script src="js/script.js"></script>
+
 </body>
 </html>

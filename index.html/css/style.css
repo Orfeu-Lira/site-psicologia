@@ -1,56 +1,126 @@
+/* RESET */
 * {
-  box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
+/* BASE */
 body {
-  font-family: Arial, Helvetica, sans-serif;
-  background-color: #f4f6f8;
-  margin: 0;
-  color: #333;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f7f8;
+    color: #333;
+    line-height: 1.6;
 }
 
-header {
-  background-color: #5b7c99;
-  color: #fff;
-  padding: 30px 20px;
-  text-align: center;
+/* CONTAINER */
+.container {
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    padding: 40px 0;
 }
 
-section {
-  max-width: 900px;
-  margin: 30px auto;
-  background-color: #fff;
-  padding: 25px;
-  border-radius: 8px;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+/* HERO */
+.hero {
+    background: linear-gradient(135deg, #3a7d7c, #2c5f6d);
+    color: white;
+    text-align: center;
+    padding: 80px 20px;
 }
 
-h2 {
-  color: #5b7c99;
+.hero h1 {
+    font-size: 2.5rem;
+    margin-bottom: 15px;
 }
 
-.info p {
-  margin: 8px 0;
+.hero p {
+    font-size: 1.2rem;
+    margin-bottom: 25px;
 }
 
+/* BOTÃO */
 .btn {
-  display: inline-block;
-  margin-top: 15px;
-  padding: 12px 22px;
-  background-color: #5b7c99;
-  color: #fff;
-  text-decoration: none;
-  border-radius: 5px;
-  transition: background 0.3s;
+    display: inline-block;
+    background-color: #ffffff;
+    color: #2c5f6d;
+    padding: 12px 25px;
+    border-radius: 30px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s ease;
 }
 
 .btn:hover {
-  background-color: #466277;
+    background-color: #e6e6e6;
+    transform: translateY(-3px);
 }
 
+/* SECTIONS */
+section {
+    background-color: white;
+    margin: 30px auto;
+    border-radius: 10px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.05);
+}
+
+section h2 {
+    margin-bottom: 20px;
+    color: #2c5f6d;
+}
+
+section p {
+    margin-bottom: 10px;
+}
+
+/* INFO DESTACADA */
+.info {
+    border-left: 5px solid #3a7d7c;
+}
+
+/* FOOTER */
 footer {
-  text-align: center;
-  padding: 20px;
-  background-color: #e9ecef;
-  font-size: 14px;
+    text-align: center;
+    padding: 20px;
+    background-color: #2c5f6d;
+    color: white;
+    font-size: 0.9rem;
+}
+/* CTA FINAL - Destaque suave */
+.cta-section {
+    background-color: #eef3f5;
+    border: 1px solid #dde5e8;
+    transition: 0.3s ease;
+}
+
+/* Botão com animação leve */
+.cta-section .btn {
+    background-color: #2c5f6d;
+    color: white;
+    position: relative;
+    overflow: hidden;
+}
+
+/* Hover elegante */
+.cta-section .btn:hover {
+    background-color: #244e58;
+    transform: translateY(-4px);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+}
+
+/* Animação suave contínua */
+@keyframes pulseSoft {
+    0% {
+        box-shadow: 0 0 0 0 rgba(44, 95, 109, 0.4);
+    }
+    70% {
+        box-shadow: 0 0 0 10px rgba(44, 95, 109, 0);
+    }
+    100% {
+        box-shadow: 0 0 0 0 rgba(44, 95, 109, 0);
+    }
+}
+
+.cta-section .btn {
+    animation: pulseSoft 3s infinite;
 }
