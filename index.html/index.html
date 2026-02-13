@@ -31,6 +31,44 @@
     <p><strong>WhatsApp:</strong> <span id="whatsapp"></span></p>
     <p><strong>Email:</strong> <span id="email"></span></p>
 
+    <section>
+  <h2>Pré-agendamento psicológico</h2>
+
+  <form id="formAgendamento">
+    
+    <label>
+      Nome completo:
+      <input type="text" name="nome" required>
+    </label>
+
+    <label>
+      Idade:
+      <input type="number" name="idade" min="12" required>
+    </label>
+
+    <label>
+      É sua primeira vez em terapia?
+      <select name="primeiraVez" required>
+        <option value="">Selecione</option>
+        <option value="Sim">Sim</option>
+        <option value="Não">Não</option>
+      </select>
+    </label>
+
+    <label>
+      Descreva brevemente o motivo da busca por terapia:
+      <textarea name="queixa" rows="5" required></textarea>
+    </label>
+
+    <label>
+      <input type="checkbox" name="consentimento" required>
+      Declaro que li e concordo com o uso das informações conforme a LGPD.
+    </label>
+
+    <button type="submit">Enviar informações</button>
+  </form>
+</section>
+
     <a id="linkWhatsapp" class="btn" target="_blank">
       Agendar Atendimento
     </a>
